@@ -1,0 +1,30 @@
+Word to vec generates emebedding based on neural network.
+
+To work on:
+1. 
+
+First function: 
+    Two file as input only training data 
+    Create two files create toxic_train and non_toxic_train file
+    Removing stop word and cleaning
+    k most common non stop words for each file
+    2*K is used to calculate the cosine similarity score.(document which algorithm)
+    Choose one or experiment with multiple pretrained model for emebedding
+    for function one
+    Qeustions: 
+    1. How the data should be passed to the pretrained network ?
+    2. how to import pretrained network ?
+    You should then print out a nice summary for the above statistics, no need to return anything. You 
+    may also use helper functions to help your function look nicer.
+    
+    
+
+Second function: 
+1. top k frequent non stop words.
+2.  using gensim to find the similar word in the file 
+
+
+
+
+personal notes: 
+Gensim Word2Vec is a popular neural network-based algorithm for creating vector representations of words, also known as word embeddings.
