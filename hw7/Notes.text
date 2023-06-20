@@ -1,0 +1,7 @@
+1. loading the model. 
+loading the dataset taking 100 data length 
+calculating the accuracy of those three
+
+
+a. when using different model the issue is the labels they are prediction was different
+it was difficult convert into desired format get the correct accuracy. 
