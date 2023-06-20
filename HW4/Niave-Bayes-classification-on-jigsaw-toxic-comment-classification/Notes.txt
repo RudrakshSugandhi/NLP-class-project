@@ -1,0 +1,16 @@
+#points for the rem
+Incread the vector size increases the accuracy a little. 
+1. The model accuracy  
+        vector size =5000 and val =0.3 
+        val accuracy = 0.947
+        test_accuracy = 0.3824 compared to test_label provied for toxic comment
+
+2. Tried to change the feature size but didn't had much effect on accuracy
+3. Tried to change the dataset validation set and it turnout that as increwasing the training set increases the accruacy by 2 percentage. 
+
+# Add this parts to main code
+4. Added Unkown to some place where data is missing top improve the accruacy
+5. Because the test_labels contain -1 value for accruacy we don't need to consider it so just remove that while considering the accuracy.
+6. Drop all the rows from testing set as well test_label_set so that we can get the accruacy of the model. 
+        This gave the accuracy of 0.9169
+7. For the comparing and contrasting two model, used the precision recall, f1 score and roc_auc curve to compare. 
