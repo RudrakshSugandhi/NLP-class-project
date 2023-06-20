@@ -1,0 +1,57 @@
+(?<!y)our(?!r)', 'or'
+
+reg experssion  which is greater than size 5
+
+'\b\w{1,}our{1,}\b'
+[a-z][a-z]+our----!!
+\b\w*our\w*\b
+\b\w{6,}.*our.*\b'
+#.{6,}.*our.*
+([a-z]{1,}(?<!y|h|f|s|c))our
+
+arbour	
+ardour	
+armour	
+behaviour	
+British	
+candour	
+clamour	
+colour	
+demeanour	
+endeavour	
+favour	
+flavour	
+harbour	
+honour	
+humour	
+labour	
+neighbour	
+odour	
+parlour	
+rancour	
+rigour	
+rumour	
+saviour	
+savour	
+splendour	
+tumour	
+valour	
+vigour	
+your
+our
+your
+yourself
+traour 
+source
+course
+hour
+four
+yourself
+fourth
+hours
+
+Things to add in report:
+1.Write out the logic behind your regex decisions and discoveries to a report. For 
+example, were there words that your regex did not capture that it was? Or does it 
+capture incorrect words? This could also be how you built up the regexes, (“I started 
+with this simple expressions, but it didn’t capture x so I augmented it ...")
